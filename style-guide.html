@@ -390,6 +390,186 @@
             </div> <!-- /#tables--striped -->
 
           </section><!-- /#tables -->
+
+          <section id="forms">
+            <div class="example-container" id="forms--basic">
+              <span class="example-heading">Forms | Basic <a class="show-code" data-codetarget="forms--basic--code"><span class="show-label">show</span><span class="hide-label">hide</span> code</a></span>
+              <div class="example">
+                <form>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputEmail4" class="col-form-label">Email</label>
+                      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="inputPassword4" class="col-form-label">Password</label>
+                      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputAddress" class="col-form-label">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                  </div>
+                  <div class="form-group">
+                    <label for="inputAddress2" class="col-form-label">Address 2</label>
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputCity" class="col-form-label">City</label>
+                      <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="form-group col-md-4">
+                      <label for="inputState" class="col-form-label">State</label>
+                      <select id="inputState" class="form-control">
+                        <option>Choose</option>
+                        <option>Alaska</option>
+                        <option>Arizona</option>
+                        <option>Arkansas</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-md-2">
+                      <label for="inputZip" class="col-form-label">Zip</label>
+                      <input type="text" class="form-control" id="inputZip">
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="checkbox"> Active Checkbox
+                        </label>
+                      </div>
+                      <div class="form-check disabled">
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="checkbox" disabled> Disabled Checkbox
+                        </label>
+                      </div>
+                    </div>
+                    <div class="form-group col-md-6">
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                          Option one 
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                          Option two 
+                        </label>
+                      </div>
+                      <div class="form-check disabled">
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" disabled>
+                          Option three is disabled
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Notes</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Sign in</button>
+                </form>
+              </div>
+              <figure class="example--code" id="forms--basic--code">
+                <pre><code class="html">
+&lt;form&gt;
+  &lt;div class="form-row"&gt;
+    &lt;div class="form-group col-md-6"&gt;
+      &lt;label for="inputEmail4" class="col-form-label"&gt;Email&lt;/label&gt;
+      &lt;input type="email" class="form-control" id="inputEmail4" placeholder="Email"&gt;
+    &lt;/div&gt;
+    &lt;div class="form-group col-md-6"&gt;
+      &lt;label for="inputPassword4" class="col-form-label"&gt;Password&lt;/label&gt;
+      &lt;input type="password" class="form-control" id="inputPassword4" placeholder="Password"&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="form-group"&gt;
+    &lt;label for="inputAddress" class="col-form-label"&gt;Address&lt;/label&gt;
+    &lt;input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St"&gt;
+  &lt;/div&gt;
+  &lt;div class="form-group"&gt;
+    &lt;label for="inputAddress2" class="col-form-label"&gt;Address 2&lt;/label&gt;
+    &lt;input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor"&gt;
+  &lt;/div&gt;
+  &lt;div class="form-row"&gt;
+    &lt;div class="form-group col-md-6"&gt;
+      &lt;label for="inputCity" class="col-form-label"&gt;City&lt;/label&gt;
+      &lt;input type="text" class="form-control" id="inputCity"&gt;
+    &lt;/div&gt;
+    &lt;div class="form-group col-md-4"&gt;
+      &lt;label for="inputState" class="col-form-label"&gt;State&lt;/label&gt;
+      &lt;select id="inputState" class="form-control"&gt;
+        &lt;option&gt;Choose&lt;/option&gt;
+        &lt;option&gt;Alaska&lt;/option&gt;
+        &lt;option&gt;Arizona&lt;/option&gt;
+        &lt;option&gt;Arkansas&lt;/option&gt;
+        &lt;option&gt;...&lt;/option&gt;
+      &lt;/select&gt;
+    &lt;/div&gt;
+    &lt;div class="form-group col-md-2"&gt;
+      &lt;label for="inputZip" class="col-form-label"&gt;Zip&lt;/label&gt;
+      &lt;input type="text" class="form-control" id="inputZip"&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="form-group"&gt;
+    &lt;div class="form-check"&gt;
+      &lt;label class="form-check-label"&gt;
+        &lt;input class="form-check-input" type="checkbox"&gt; Check me out
+      &lt;/label&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;button type="submit" class="btn btn-primary"&gt;Sign in&lt;/button&gt;
+&lt;/form&gt;
+                </code></pre>
+              </figure>
+            </div> <!-- /#forms--basic -->
+
+            <div class="example-container" id="forms--sizing">
+              <span class="example-heading">Forms | Sizing <a class="show-code" data-codetarget="forms--sizing--code"><span class="show-label">show</span><span class="hide-label">hide</span> code</a></span>
+              <div class="example">
+                <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg">
+                <input class="form-control" type="text" placeholder="Default input">
+                <input class="form-control form-control-sm" type="text" placeholder=".form-control-sm">
+
+                <br>
+
+                <select class="form-control form-control-lg">
+                  <option>Large select</option>
+                </select>
+                <select class="form-control">
+                  <option>Default select</option>
+                </select>
+                <select class="form-control form-control-sm">
+                  <option>Small select</option>
+                </select>
+              </div>
+              <figure class="example--code" id="forms--sizing--code">
+                <pre><code class="html">
+&lt;form&gt;
+  &lt;input class="form-control form-control-lg" type="text" placeholder=".form-control-lg"&gt;
+  &lt;input class="form-control" type="text" placeholder="Default input"&gt;
+  &lt;input class="form-control form-control-sm" type="text" placeholder=".form-control-sm"&gt;
+
+  &lt;select class="form-control form-control-lg"&gt;
+    &lt;option&gt;Large select&lt;/option&gt;
+  &lt;/select&gt;
+  &lt;select class="form-control"&gt;
+    &lt;option&gt;Default select&lt;/option&gt;
+  &lt;/select&gt;
+  &lt;select class="form-control form-control-sm"&gt;
+    &lt;option&gt;Small select&lt;/option&gt;
+  &lt;/select&gt;
+&lt;/form&gt;
+                </code></pre>
+              </figure>
+            </div> <!-- /#forms--sizing -->
+
+          </section><!-- /#forms -->
         </div>
       </div>
     </div>
