@@ -434,12 +434,43 @@
                       <input type="text" class="form-control" id="inputZip">
                     </div>
                   </div>
-                  <div class="form-group">
-                    <div class="form-check">
-                      <label class="form-check-label">
-                        <input class="form-check-input" type="checkbox"> Check me out
-                      </label>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="checkbox"> Active Checkbox
+                        </label>
+                      </div>
+                      <div class="form-check disabled">
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="checkbox" disabled> Disabled Checkbox
+                        </label>
+                      </div>
                     </div>
+                    <div class="form-group col-md-6">
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                          Option one 
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                          Option two 
+                        </label>
+                      </div>
+                      <div class="form-check disabled">
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" disabled>
+                          Option three is disabled
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Notes</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                   </div>
                   <button type="submit" class="btn btn-primary">Sign in</button>
                 </form>
@@ -498,78 +529,6 @@
               </figure>
             </div> <!-- /#forms--basic -->
 
-
-            <div class="example-container" id="forms--controls">
-              <span class="example-heading">Forms | Controls <a class="show-code" data-codetarget="forms--controls--code"><span class="show-label">show</span><span class="hide-label">hide</span> code</a></span>
-              <div class="example">
-                <form>
-                  <div class="form-group">
-                    <label for="exampleFormControlInput1">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleFormControlSelect1">Example select</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                      <option>1</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleFormControlSelect2">Example multiple select</label>
-                    <select multiple class="form-control" id="exampleFormControlSelect2">
-                      <option>1</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Example textarea</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                  </div>
-                </form>
-              </div>
-              <figure class="example--code" id="forms--controls--code">
-                <pre><code class="html">
-&lt;form&gt;
-  &lt;div class="form-group"&gt;
-    &lt;label for="exampleFormControlInput1"&gt;Email address&lt;/label&gt;
-    &lt;input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"&gt;
-  &lt;/div&gt;
-  &lt;div class="form-group"&gt;
-    &lt;label for="exampleFormControlSelect1"&gt;Example select&lt;/label&gt;
-    &lt;select class="form-control" id="exampleFormControlSelect1"&gt;
-      &lt;option&gt;1&lt;/option&gt;
-      &lt;option&gt;2&lt;/option&gt;
-      &lt;option&gt;3&lt;/option&gt;
-      &lt;option&gt;4&lt;/option&gt;
-      &lt;option&gt;5&lt;/option&gt;
-    &lt;/select&gt;
-  &lt;/div&gt;
-  &lt;div class="form-group"&gt;
-    &lt;label for="exampleFormControlSelect2"&gt;Example multiple select&lt;/label&gt;
-    &lt;select multiple class="form-control" id="exampleFormControlSelect2"&gt;
-      &lt;option&gt;1&lt;/option&gt;
-      &lt;option&gt;2&lt;/option&gt;
-      &lt;option&gt;3&lt;/option&gt;
-      &lt;option&gt;4&lt;/option&gt;
-      &lt;option&gt;5&lt;/option&gt;
-    &lt;/select&gt;
-  &lt;/div&gt;
-  &lt;div class="form-group"&gt;
-    &lt;label for="exampleFormControlTextarea1"&gt;Example textarea&lt;/label&gt;
-    &lt;textarea class="form-control" id="exampleFormControlTextarea1" rows="3"&gt;&lt;/textarea&gt;
-  &lt;/div&gt;
-&lt;/form&gt;
-                </code></pre>
-              </figure>
-            </div> <!-- /#forms--controls -->
-
-
             <div class="example-container" id="forms--sizing">
               <span class="example-heading">Forms | Sizing <a class="show-code" data-codetarget="forms--sizing--code"><span class="show-label">show</span><span class="hide-label">hide</span> code</a></span>
               <div class="example">
@@ -609,79 +568,6 @@
                 </code></pre>
               </figure>
             </div> <!-- /#forms--sizing -->
-
-
-            <div class="example-container" id="forms--radio">
-              <span class="example-heading">Forms | Radio/Checkboxes <a class="show-code" data-codetarget="forms--radio--code"><span class="show-label">show</span><span class="hide-label">hide</span> code</a></span>
-              <div class="example">
-                <div class="form-check">
-                  <label class="form-check-label">
-                    <input class="form-check-input" type="checkbox" value="">
-                    Option one is this and that&mdash;be sure to include why it's great
-                  </label>
-                </div>
-                <div class="form-check disabled">
-                  <label class="form-check-label">
-                    <input class="form-check-input" type="checkbox" value="" disabled>
-                    Option two is disabled
-                  </label>
-                </div>
-                <hr>
-                <div class="form-check">
-                  <label class="form-check-label">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                    Option one is this and that&mdash;be sure to include why it's great
-                  </label>
-                </div>
-                <div class="form-check">
-                  <label class="form-check-label">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                    Option two can be something else and selecting it will deselect option one
-                  </label>
-                </div>
-                <div class="form-check disabled">
-                  <label class="form-check-label">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" disabled>
-                    Option three is disabled
-                  </label>
-                </div>
-              </div>
-              <figure class="example--code" id="forms--radio--code">
-                <pre><code class="html">
-&lt;div class="form-check"&gt;
-  &lt;label class="form-check-label"&gt;
-    &lt;input class="form-check-input" type="checkbox" value=""&gt;
-    Option one is this and that&mdash;be sure to include why it's great
-  &lt;/label&gt;
-&lt;/div&gt;
-&lt;div class="form-check disabled"&gt;
-  &lt;label class="form-check-label"&gt;
-    &lt;input class="form-check-input" type="checkbox" value="" disabled&gt;
-    Option two is disabled
-  &lt;/label&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;div class="form-check"&gt;
-  &lt;label class="form-check-label"&gt;
-    &lt;input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked&gt;
-    Option one is this and that&mdash;be sure to include why it's great
-  &lt;/label&gt;
-&lt;/div&gt;
-&lt;div class="form-check"&gt;
-  &lt;label class="form-check-label"&gt;
-    &lt;input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2"&gt;
-    Option two can be something else and selecting it will deselect option one
-  &lt;/label&gt;
-&lt;/div&gt;
-&lt;div class="form-check disabled"&gt;
-  &lt;label class="form-check-label"&gt;
-    &lt;input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" disabled&gt;
-    Option three is disabled
-  &lt;/label&gt;
-&lt;/div&gt;
-                </code></pre>
-              </figure>
-            </div> <!-- /#forms--radio -->
 
           </section><!-- /#forms -->
         </div>
