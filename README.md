@@ -3,37 +3,12 @@
 General Notes<br>
     - All areas should have code snippets that match displayed section (front end dev should add for custom components)<br>
 
-<br>    Typography<br>
-    - Headings<br>
-    - Body Copy<br>
-    - Blockquotes<br>
-    - Lists<br>
-
-<br>    Tables<br>
-    - Basic<br>
-    - Striped<br>
-
-<br>    Forms<br>
-    - Basic<br>
-    - Focus State<br>
-    - Disabled State<br>
-    - Readonly State<br>
-    - Help Text<br>
-    - Validation States<br>
-    - Icons<br>
-    - Control Sizing<br>
-
-<br>    Buttons<br>
-    - Types<br>
-    - Sizes<br>
-    - Active State<br>
-    - Disabled State<br>
-
-<br>    Helper Classes<br>
-    - Contextual Colors<br>
-    - Contextual Backgrounds<br>
-    - Close Icon<br>
-    - Carets<br>
+Todo:
+- Modals (https://getbootstrap.com/docs/4.0/components/modal/)
+- Cards (https://getbootstrap.com/docs/4.0/components/card/)
+- Breadcrumbs (https://getbootstrap.com/docs/4.0/components/breadcrumb/)
+- Pagination (https://getbootstrap.com/docs/4.0/components/pagination/)
+- Progress (https://getbootstrap.com/docs/4.0/components/progress/)
 
 <br>    Custom<br>
     - Any custom components that are common on the site (like asset cards for USCRE)<br>
