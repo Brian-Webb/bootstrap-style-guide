@@ -1,18 +1,12 @@
-# bootstrap-style-guide
+#Bootstrap Style Guide
 
-General Notes<br>
-    - All areas should have code snippets that match displayed section (front end dev should add for custom components)<br>
+This style guide is to serve as a kitchen sink for the common bootstrap 4 components. Here is the process that should be followed:
 
-Todo:
-- Modals (https://getbootstrap.com/docs/4.0/components/modal/)
-- Cards (https://getbootstrap.com/docs/4.0/components/card/)
-- Breadcrumbs (https://getbootstrap.com/docs/4.0/components/breadcrumb/)
-- Pagination (https://getbootstrap.com/docs/4.0/components/pagination/)
-- Progress (https://getbootstrap.com/docs/4.0/components/progress/)
+1. Designer creates style guide to match brand in the same format as the HTML style guide
+2. UI developer creates CSS to make the HTMl style guide match te provided design
+3. UI developer modifies any components markup to match provided design (as needed)
+4. All developers now have a repository of common components, pre-styled to the brand guidelines
+5. Designer and UI developer should update style guide as project evolves and changes
 
-<br>    Custom<br>
-    - Any custom components that are common on the site (like asset cards for USCRE)<br>
-
-<br>
-<br>    Designer Notes:<br>
-    - Font sizes sh<br>ould always be in px (http://reeddesign.co.uk/test/points-pixels.html)
+**Designer Notes:**
+- Font sizes should always be in px (http://reeddesign.co.uk/test/points-pixels.html)
