@@ -87,15 +87,16 @@
 /* Navigation Styles */
 	#styleguide-navigation {
 		position: fixed;
-		top: 2rem;
+		height: 100%;
+		top: 0rem;
 		padding-left: 1rem;
-	    margin-left: 1rem;
-	    border-left: 1px solid #efefef;
-	    padding-top: 2rem;
+	  margin-left: 1rem;
+	  border-left: 1px solid #efefef;
+	  padding-top: 1rem;
 	}
 	#styleguide-navigation .nav-tabs {
 		border: 0;
-		margin-bottom: 2rem;
+		margin-bottom: 1rem;
 	}
 	#styleguide-navigation h5 {
 		font-size: 1rem;
@@ -114,4 +115,5 @@
 	#styleguide-navigation .nav-link,
 	#styleguide-navigation .nav-link:hover {
 	    border: 0;
+	    padding: .2rem 1rem;
 	}
