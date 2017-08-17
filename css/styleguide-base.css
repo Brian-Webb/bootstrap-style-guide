@@ -7,10 +7,20 @@
 	#examples {
 		padding-bottom: 40rem;
 	}
-	.example-container {
+	.example__rendered--active {
+		border-bottom-width: 1px;
+	}
+	.example__container {
 		margin-top: 4rem;
 	}
-	.example {
+	.example__heading {
+		font-size: 2rem;
+		padding-bottom: .5rem;
+		display: block;
+		font-weight: 300;
+		color: #bbb;
+	}
+	.example__rendered {
 		padding: 1rem;
 		border: 1px solid #eee;
 		border-radius: 4px;
@@ -18,10 +28,7 @@
 		border-bottom-right-radius: 0;
 		border-bottom-width: 0;
 	}
-	.example.active {
-		border-bottom-width: 1px;
-	}
-	.example--code {
+	.example__code {
 		border: 1px solid #eee;
 		border-radius: 4px !important;
 		border-top-left-radius: 0 !important;
@@ -30,9 +37,9 @@
 		overflow: hidden;
 		border-bottom-width: 0;
 	}
-	.example--code.active {
+	.example__code--active {
 		max-height:5000px;
-	border-bottom-width: 1px;
+		border-bottom-width: 1px;
 	}
 	a.show-code {
 		font-size: .8rem;
@@ -49,13 +56,13 @@
 		    user-select: none;         /* Non-prefixed version, currently
 		                                  supported by Chrome and Opera */
 	}
-	a.show-code .hide-label {
+	.show-code .hide-label {
 		display: none;
 	}
-	a.show-code.active .show-label {
+	.show-code--active .show-label {
 		display: none;
 	}
-	a.show-code.active .hide-label {
+	.show-code--active .hide-label {
 		display: inline;
 	}
 	pre {
@@ -64,13 +71,6 @@
 	pre code {
 		padding: 0 1rem !important;
 		white-space: pre-wrap;
-	}
-	.example-heading {
-		font-size: 2rem;
-		padding-bottom: .5rem;
-		display: block;
-		font-weight: 300;
-		color: #bbb;
 	}
 	
 /* Navigation Styles */
@@ -83,7 +83,7 @@
 	    padding-top: 2rem;
 	}
 	#styleguide-navigation .nav-tabs {
-		border: none;
+		border: 0;
 		margin-bottom: 2rem;
 	}
 	#styleguide-navigation h5 {
@@ -94,13 +94,13 @@
 		display: block;
 		width: 100%;
 	}
-	#styleguide-navigation .nav-tabs .nav-link.active {
+	#styleguide-navigation .nav-link.active {
 	    color: inherit;
 	    background-color: rgba(0,0,0,0.025);
-	    border: none;
+	    border: 0;
 	    border-radius: 0;
 	}
-	#styleguide-navigation .nav-tabs .nav-link,
-	#styleguide-navigation .nav-tabs .nav-link:hover {
-	    border: none;
+	#styleguide-navigation .nav-link,
+	#styleguide-navigation .nav-link:hover {
+	    border: 0;
 	}
