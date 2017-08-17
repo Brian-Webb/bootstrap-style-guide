@@ -674,6 +674,183 @@
             </div> <!-- /#buttons--sizing -->
 
           </section><!-- /#buttons -->
+
+          <section class="example" id="modals">
+            <div class="example__container" id="modals--basic">
+              <span class="example__heading">Modals | Basic<a class="show-code" data-codetarget="modals--basic--code"><span class="show-label">show</span><span class="hide-label">hide</span> code</a></span>
+              <div class="example__rendered">
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                  Launch demo modal
+                </button>
+
+                <div class="modal modal--styleguide-example">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Static Modal Example</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <p>Modal body text goes here.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        Modal body text goes here.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <figure class="example__code" id="modals--basic--code">
+                <pre><code class="html">
+&lt;!-- Button trigger modal --&gt;
+&lt;button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"&gt;
+  Launch demo modal
+&lt;/button&gt;
+
+&lt;!-- Modal --&gt;
+&lt;div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"&gt;
+  &lt;div class="modal-dialog" role="document"&gt;
+    &lt;div class="modal-content"&gt;
+      &lt;div class="modal-header"&gt;
+        &lt;h5 class="modal-title" id="exampleModalLabel"&gt;Modal title&lt;/h5&gt;
+        &lt;button type="button" class="close" data-dismiss="modal" aria-label="Close"&gt;
+          &lt;span aria-hidden="true"&gt;&times;&lt;/span&gt;
+        &lt;/button&gt;
+      &lt;/div&gt;
+      &lt;div class="modal-body"&gt;
+        Modal body text goes here.
+      &lt;/div&gt;
+      &lt;div class="modal-footer"&gt;
+        &lt;button type="button" class="btn btn-secondary" data-dismiss="modal"&gt;Close&lt;/button&gt;
+        &lt;button type="button" class="btn btn-primary"&gt;Save changes&lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+                </code></pre>
+              </figure>
+            </div> <!-- /#modals--basic -->
+
+            <div class="example__container" id="modals--sizing">
+              <span class="example__heading">Modals | Sizing<a class="show-code" data-codetarget="modals--sizing--code"><span class="show-label">show</span><span class="hide-label">hide</span> code</a></span>
+              <div class="example__rendered">
+
+                <!-- Large modal -->
+                <div class="modal modal--styleguide-example" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        Modal body text goes here.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Small modal -->
+                <div class="modal modal--styleguide-example" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        Modal body text goes here.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <figure class="example__code" id="modals--sizing--code">
+                <pre><code class="html">
+&lt;!-- Large modal --&gt;
+&lt;div class="modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true"&gt;
+  &lt;div class="modal-dialog modal-lg"&gt;
+    &lt;div class="modal-content"&gt;
+      &lt;div class="modal-header"&gt;
+        &lt;h5 class="modal-title" id="exampleModalLabel"&gt;Modal title&lt;/h5&gt;
+        &lt;button type="button" class="close" data-dismiss="modal" aria-label="Close"&gt;
+          &lt;span aria-hidden="true"&gt;&times;&lt;/span&gt;
+        &lt;/button&gt;
+      &lt;/div&gt;
+      &lt;div class="modal-body"&gt;
+        Modal body text goes here.
+      &lt;/div&gt;
+      &lt;div class="modal-footer"&gt;
+        &lt;button type="button" class="btn btn-secondary" data-dismiss="modal"&gt;Close&lt;/button&gt;
+        &lt;button type="button" class="btn btn-primary"&gt;Save changes&lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Small modal --&gt;
+&lt;div class="modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true"&gt;
+  &lt;div class="modal-dialog modal-sm"&gt;
+    &lt;div class="modal-content"&gt;
+      &lt;div class="modal-header"&gt;
+        &lt;h5 class="modal-title" id="exampleModalLabel"&gt;Modal title&lt;/h5&gt;
+        &lt;button type="button" class="close" data-dismiss="modal" aria-label="Close"&gt;
+          &lt;span aria-hidden="true"&gt;&times;&lt;/span&gt;
+        &lt;/button&gt;
+      &lt;/div&gt;
+      &lt;div class="modal-body"&gt;
+        Modal body text goes here.
+      &lt;/div&gt;
+      &lt;div class="modal-footer"&gt;
+        &lt;button type="button" class="btn btn-secondary" data-dismiss="modal"&gt;Close&lt;/button&gt;
+        &lt;button type="button" class="btn btn-primary"&gt;Save changes&lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+                </code></pre>
+              </figure>
+            </div> <!-- /#modals--sizing -->
+
+          </section><!-- /#modals -->
         </div>
 
         <div class="col-sm-2">
@@ -713,6 +890,14 @@
                   <li class="nav-item"><a class="nav-link" href="#buttons--basic">Basic</a></li>
                   <li class="nav-item"><a class="nav-link" href="#buttons--outline">Outline</a></li>
                   <li class="nav-item"><a class="nav-link" href="#buttons--sizing">Sizing</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <h5>Modals</h5>
+                <ul class="nav nav-tabs nav-sublist" role="tablist">
+                  <li class="nav-item"><a class="nav-link" href="#modals--basic">Basic</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#modals--sizing">Sizing</a></li>
                 </ul>
               </li>
             </ul>
