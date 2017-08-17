@@ -1033,8 +1033,6 @@
               </figure>
             </div> <!-- /#pagination--basic -->
 
-
-          <section class="example" id="pagination">
             <div class="example__container" id="pagination--sizing">
               <span class="example__heading">Pagination | Sizing<a class="show-code" data-codetarget="pagination--sizing--code"><span class="show-label">show</span><span class="hide-label">hide</span> code</a></span>
               <div class="example__rendered">
@@ -1103,8 +1101,6 @@
               </figure>
             </div> <!-- /#pagination--sizing -->
 
-
-          <section class="example" id="pagination">
             <div class="example__container" id="pagination--disabled-active">
               <span class="example__heading">Pagination | Disabled/Active<a class="show-code" data-codetarget="pagination--disabled-active--code"><span class="show-label">show</span><span class="hide-label">hide</span> code</a></span>
               <div class="example__rendered">
@@ -1146,6 +1142,76 @@
             </div> <!-- /#pagination--disabled-active -->
 
           </section><!-- /#pagination -->
+
+
+          <section class="example" id="progress">
+            <div class="example__container" id="progress--basic">
+              <span class="example__heading">Progress | Basic<a class="show-code" data-codetarget="progress--basic--code"><span class="show-label">show</span><span class="hide-label">hide</span> code</a></span>
+              <div class="example__rendered">
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                </div>
+              </div>
+              <figure class="example__code" id="progress--basic--code">
+                <pre><code class="html">
+&lt;div class="progress"&gt;
+  &lt;div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"&gt;25%&lt;/div&gt;
+&lt;/div&gt;
+                </code></pre>
+              </figure>
+            </div> <!-- /#progress--basic -->
+
+            <div class="example__container" id="progress--backgrounds">
+              <span class="example__heading">Progress | Backgrounds<a class="show-code" data-codetarget="progress--backgrounds--code"><span class="show-label">show</span><span class="hide-label">hide</span> code</a></span>
+              <div class="example__rendered">
+                <div class="progress">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <figure class="example__code" id="progress--backgrounds--code">
+                <pre><code class="html">
+&lt;div class="progress"&gt;
+  &lt;div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="progress"&gt;
+  &lt;div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="progress"&gt;
+  &lt;div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="progress"&gt;
+  &lt;div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"&gt;&lt;/div&gt;
+&lt;/div&gt;
+                </code></pre>
+              </figure>
+            </div> <!-- /#progress--backgrounds -->
+
+            <div class="example__container" id="progress--animated">
+              <span class="example__heading">Progress | Animated<a class="show-code" data-codetarget="progress--animated--code"><span class="show-label">show</span><span class="hide-label">hide</span> code</a></span>
+              <div class="example__rendered">
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                </div>
+              </div>
+              <figure class="example__code" id="progress--animated--code">
+                <pre><code class="html">
+&lt;div class="progress"&gt;
+  &lt;div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"&gt;&lt;/div&gt;
+&lt;/div&gt;
+                </code></pre>
+              </figure>
+            </div> <!-- /#progress--animated -->
+
+          </section><!-- /#progress -->
         </div>
 
         <div class="col-sm-2">
@@ -1216,6 +1282,15 @@
                   <li class="nav-item"><a class="nav-link" href="#pagination--basic">Basic</a></li>
                   <li class="nav-item"><a class="nav-link" href="#pagination--sizing">Sizing</a></li>
                   <li class="nav-item"><a class="nav-link" href="#pagination--disabled-active">Disabled/Active</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <h5>Progress</h5>
+                <ul class="nav nav-tabs nav-sublist" role="tablist">
+                  <li class="nav-item"><a class="nav-link" href="#progress--basic">Basic</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#progress--backgrounds">Backgrounds</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#progress--animated">Animated</a></li>
                 </ul>
               </li>
             </ul>
