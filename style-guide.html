@@ -21,10 +21,10 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-10" id="examples">
-          <section id="typography">
-            <div class="example-container" id="typography--headings">
-              <span class="example-heading">Typography | Headings <a class="show-code" data-codetarget="typography--headings--code"><span class="show-label">show</span><span class="hide-label">hide</span> code</a></span>
-              <div class="example">
+          <section class="example" id="typography">
+            <div class="example__container" id="typography--headings">
+              <span class="example__heading">Typography | Headings <a class="show-code" data-codetarget="typography--headings--code"><span class="show-label">show</span><span class="hide-label">hide</span> code</a></span>
+              <div class="example__rendered">
                 <h1>Heading 1 <small>Sub Heading</small></h1>
                 <h2>Heading 2 <small>Sub Heading</small></h2>
                 <h3>Heading 3 <small>Sub Heading</small></h3>
@@ -32,7 +32,7 @@
                 <h5>Heading 5 <small>Sub Heading</small></h5>
                 <h6>Heading 6 <small>Sub Heading</small></h6>
               </div>
-              <figure class="example--code" id="typography--headings--code">
+              <figure class="example__code" id="typography--headings--code">
                 <pre><code class="html">
 &lt;h1&gt;Heading 1 &lt;small&gt;Sub Heading&lt;/small&gt;&lt;/h1&gt;
 &lt;h2&gt;Heading 2 &lt;small&gt;Sub Heading&lt;/small&gt;&lt;/h2&gt;
@@ -45,16 +45,16 @@
             </div> <!-- /#typography--headers -->
 
 
-            <div class="example-container" id="typography--body">
-              <span class="example-heading">Typography | Body <a class="show-code" data-codetarget="typography--body--code"><span class="show-label">show</span><span class="hide-label">hide</span>  code</a></span>
-              <div class="example">
+            <div class="example__container" id="typography--body">
+              <span class="example__heading">Typography | Body <a class="show-code" data-codetarget="typography--body--code"><span class="show-label">show</span><span class="hide-label">hide</span>  code</a></span>
+              <div class="example__rendered">
                 <p class="lead">Lead paragraph. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
 
                 <p>Standard Paragraph. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
 
                 <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
               </div>
-              <figure class="example--code" id="typography--body--code">
+              <figure class="example__code" id="typography--body--code">
                 <pre><code class="html">
 &lt;p class="lead"&gt;Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.&lt;/p&gt;
 
@@ -66,12 +66,12 @@
             </div><!-- /#typography--body -->
 
 
-            <div class="example-container" id="typography--blockquotes">
-              <span class="example-heading">Typography | Block Quotes <a class="show-code" data-codetarget="typography--blockquotes--code"><span class="show-label">show</span><span class="hide-label">hide</span>  code</a></span>
-              <div class="example">
+            <div class="example__container" id="typography--blockquotes">
+              <span class="example__heading">Typography | Block Quotes <a class="show-code" data-codetarget="typography--blockquotes--code"><span class="show-label">show</span><span class="hide-label">hide</span>  code</a></span>
+              <div class="example__rendered">
                 <blockquote class="blockquote">Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.<cite>Isaac Asimov</cite></blockquote>
               </div>
-              <figure class="example--code" id="typography--blockquotes--code">
+              <figure class="example__code" id="typography--blockquotes--code">
                 <pre><code class="html">
 &lt;blockquote class="blockquote"&gt;Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.&lt;cite&gt;Isaac Asimov&lt;/cite&gt;&lt;/blockquote&gt;
                 </code></pre>
@@ -79,9 +79,9 @@
             </div><!-- /#typography--blockquotes -->
 
 
-            <div class="example-container" id="typography--lists">
-              <span class="example-heading">Typography | Lists <a class="show-code" data-codetarget="typography--lists--code"><span class="show-label">show</span><span class="hide-label">hide</span>  code</a></span>
-              <div class="example">
+            <div class="example__container" id="typography--lists">
+              <span class="example__heading">Typography | Lists <a class="show-code" data-codetarget="typography--lists--code"><span class="show-label">show</span><span class="hide-label">hide</span>  code</a></span>
+              <div class="example__rendered">
                 <ol>
                   <li>Ordered list Item</li>
                   <li>Ordered list Item</li>
@@ -93,7 +93,7 @@
                   <li>Unordered list Item</li>
                 </ul>
               </div>
-              <figure class="example--code" id="typography--lists--code">
+              <figure class="example__code" id="typography--lists--code">
                 <pre><code class="html">
 &lt;ol&gt;
   &lt;li&gt;Ordered list Item&lt;/li&gt;
@@ -112,10 +112,10 @@
 
           </section><!-- /#typography -->
 
-          <section id="tables">
-            <div class="example-container" id="tables--basic">
-              <span class="example-heading">Tables | Basic <a class="show-code" data-codetarget="tables--basic--code"><span class="show-label">show</span><span class="hide-label">hide</span> code</a></span>
-              <div class="example">
+          <section class="example" id="tables">
+            <div class="example__container" id="tables--basic">
+              <span class="example__heading">Tables | Basic <a class="show-code" data-codetarget="tables--basic--code"><span class="show-label">show</span><span class="hide-label">hide</span> code</a></span>
+              <div class="example__rendered">
                 <table class="table">
                   <thead>
                     <tr>
@@ -147,7 +147,7 @@
                   </tbody>
                 </table>
               </div>
-              <figure class="example--code" id="tables--basic--code">
+              <figure class="example__code" id="tables--basic--code">
                 <pre><code class="html">
 &lt;table class="table"&gt;
   &lt;thead&gt;
@@ -184,9 +184,9 @@
             </div> <!-- /#tables--basic -->
 
 
-            <div class="example-container" id="tables--inverted">
-              <span class="example-heading">Tables | Inverted <a class="show-code" data-codetarget="tables--inverted--code"><span class="show-label">show</span><span class="hide-label">hide</span> code</a></span>
-              <div class="example">
+            <div class="example__container" id="tables--inverted">
+              <span class="example__heading">Tables | Inverted <a class="show-code" data-codetarget="tables--inverted--code"><span class="show-label">show</span><span class="hide-label">hide</span> code</a></span>
+              <div class="example__rendered">
                 <table class="table table-inverse">
                   <thead>
                     <tr>
@@ -218,7 +218,7 @@
                   </tbody>
                 </table>
               </div>
-              <figure class="example--code" id="tables--inverted--code">
+              <figure class="example__code" id="tables--inverted--code">
                 <pre><code class="html">
 &lt;table class="table  table-inverse"&gt;
   &lt;thead&gt;
@@ -255,9 +255,9 @@
             </div> <!-- /#tables--inverted -->
 
 
-            <div class="example-container" id="tables--inverted--thead-only">
-              <span class="example-heading">Tables | Inverted <small>(Table Head Only)</small> <a class="show-code" data-codetarget="tables--inverted--thead-only--code"><span class="show-label">show</span><span class="hide-label">hide</span> code</a></span>
-              <div class="example">
+            <div class="example__container" id="tables--inverted--thead-only">
+              <span class="example__heading">Tables | Inverted <small>(Table Head Only)</small> <a class="show-code" data-codetarget="tables--inverted--thead-only--code"><span class="show-label">show</span><span class="hide-label">hide</span> code</a></span>
+              <div class="example__rendered">
                 <table class="table">
                   <thead class="thead-inverse">
                     <tr>
@@ -289,7 +289,7 @@
                   </tbody>
                 </table>
               </div>
-              <figure class="example--code" id="tables--inverted--thead-only--code">
+              <figure class="example__code" id="tables--inverted--thead-only--code">
                 <pre><code class="html">
 &lt;table class="table"&gt;
   &lt;thead class="thead-inverse"&gt;
@@ -326,9 +326,9 @@
             </div> <!-- /#tables--inverted--thead-only -->
 
 
-            <div class="example-container" id="tables--striped">
-              <span class="example-heading">Tables | Striped Rows <a class="show-code" data-codetarget="tables--striped--code"><span class="show-label">show</span><span class="hide-label">hide</span> code</a></span>
-              <div class="example">
+            <div class="example__container" id="tables--striped">
+              <span class="example__heading">Tables | Striped Rows <a class="show-code" data-codetarget="tables--striped--code"><span class="show-label">show</span><span class="hide-label">hide</span> code</a></span>
+              <div class="example__rendered">
                 <table class="table table-striped">
                   <thead>
                     <tr>
@@ -360,7 +360,7 @@
                   </tbody>
                 </table>
               </div>
-              <figure class="example--code" id="tables--striped--code">
+              <figure class="example__code" id="tables--striped--code">
                 <pre><code class="html">
 &lt;table class="table table-striped"&gt;
   &lt;thead&gt;
@@ -398,10 +398,10 @@
 
           </section><!-- /#tables -->
 
-          <section id="forms">
-            <div class="example-container" id="forms--basic">
-              <span class="example-heading">Forms | Basic <a class="show-code" data-codetarget="forms--basic--code"><span class="show-label">show</span><span class="hide-label">hide</span> code</a></span>
-              <div class="example">
+          <section class="example" id="forms">
+            <div class="example__container" id="forms--basic">
+              <span class="example__heading">Forms | Basic <a class="show-code" data-codetarget="forms--basic--code"><span class="show-label">show</span><span class="hide-label">hide</span> code</a></span>
+              <div class="example__rendered">
                 <form>
                   <div class="form-row">
                     <div class="form-group col-md-6">
@@ -482,7 +482,7 @@
                   <button type="submit" class="btn btn-primary">Sign in</button>
                 </form>
               </div>
-              <figure class="example--code" id="forms--basic--code">
+              <figure class="example__code" id="forms--basic--code">
                 <pre><code class="html">
 &lt;form&gt;
   &lt;div class="form-row"&gt;
@@ -536,9 +536,9 @@
               </figure>
             </div> <!-- /#forms--basic -->
 
-            <div class="example-container" id="forms--sizing">
-              <span class="example-heading">Forms | Sizing <a class="show-code" data-codetarget="forms--sizing--code"><span class="show-label">show</span><span class="hide-label">hide</span> code</a></span>
-              <div class="example">
+            <div class="example__container" id="forms--sizing">
+              <span class="example__heading">Forms | Sizing <a class="show-code" data-codetarget="forms--sizing--code"><span class="show-label">show</span><span class="hide-label">hide</span> code</a></span>
+              <div class="example__rendered">
                 <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg">
                 <input class="form-control" type="text" placeholder="Default input">
                 <input class="form-control form-control-sm" type="text" placeholder=".form-control-sm">
@@ -561,7 +561,7 @@
                   <option>Option 3</option>
                 </select>
               </div>
-              <figure class="example--code" id="forms--sizing--code">
+              <figure class="example__code" id="forms--sizing--code">
                 <pre><code class="html">
 &lt;form&gt;
   &lt;input class="form-control form-control-lg" type="text" placeholder=".form-control-lg"&gt;
@@ -590,10 +590,10 @@
 
           </section><!-- /#buttons -->
 
-          <section id="buttons">
-            <div class="example-container" id="buttons--basic">
-              <span class="example-heading">Buttons | Basic <a class="show-code" data-codetarget="buttons--basic--code"><span class="show-label">show</span><span class="hide-label">hide</span> code</a></span>
-              <div class="example">
+          <section class="example" id="buttons">
+            <div class="example__container" id="buttons--basic">
+              <span class="example__heading">Buttons | Basic <a class="show-code" data-codetarget="buttons--basic--code"><span class="show-label">show</span><span class="hide-label">hide</span> code</a></span>
+              <div class="example__rendered">
                 <a href="#" class="btn btn-primary">Primary</a>
                 <a href="#" class="btn btn-secondary">Secondary</a>
                 <a href="#" class="btn btn-success">Success</a>
@@ -605,7 +605,7 @@
 
                 <button type="button" class="btn btn-link">Link</button>
               </div>
-              <figure class="example--code" id="buttons--basic--code">
+              <figure class="example__code" id="buttons--basic--code">
                 <pre><code class="html">
 &lt;a href="#"class="btn btn-primary"&gt;Primary&lt;/a&gt;
 &lt;a href="#"class="btn btn-secondary"&gt;Secondary&lt;/a&gt;
@@ -621,10 +621,10 @@
               </figure>
             </div> <!-- /#buttons--basic -->
 
-          <section id="buttons">
-            <div class="example-container" id="buttons--outline">
-              <span class="example-heading">Buttons | Outline <a class="show-code" data-codetarget="buttons--outline--code"><span class="show-label">show</span><span class="hide-label">hide</span> code</a></span>
-              <div class="example">
+          <section class="example" id="buttons">
+            <div class="example__container" id="buttons--outline">
+              <span class="example__heading">Buttons | Outline <a class="show-code" data-codetarget="buttons--outline--code"><span class="show-label">show</span><span class="hide-label">hide</span> code</a></span>
+              <div class="example__rendered">
                 <a href="#" class="btn btn-outline-primary">Primary</a>
                 <a href="#" class="btn btn-outline-secondary">Secondary</a>
                 <a href="#" class="btn btn-outline-success">Success</a>
@@ -634,7 +634,7 @@
                 <a href="#" class="btn btn-outline-light">Light</a>
                 <a href="#" class="btn btn-outline-dark">Dark</a>
               </div>
-              <figure class="example--code" id="buttons--outline--code">
+              <figure class="example__code" id="buttons--outline--code">
                 <pre><code class="html">
 &lt;a href="#" class="btn btn-outline-primary"&gt;Primary&lt;/a&gt;
 &lt;a href="#" class="btn btn-outline-secondary"&gt;Secondary&lt;/a&gt;
@@ -648,10 +648,10 @@
               </figure>
             </div> <!-- /#buttons--outline -->
 
-          <section id="buttons">
-            <div class="example-container" id="buttons--sizing">
-              <span class="example-heading">Buttons | Sizing <a class="show-code" data-codetarget="buttons--sizing--code"><span class="show-label">show</span><span class="hide-label">hide</span> code</a></span>
-              <div class="example">
+          <section class="example" id="buttons">
+            <div class="example__container" id="buttons--sizing">
+              <span class="example__heading">Buttons | Sizing <a class="show-code" data-codetarget="buttons--sizing--code"><span class="show-label">show</span><span class="hide-label">hide</span> code</a></span>
+              <div class="example__rendered">
                 <a href="#" class="btn btn-primary btn-lg">Large button</a>
                 <a href="#" class="btn btn-secondary btn-lg">Large button</a>
                 <hr>
@@ -661,7 +661,7 @@
                 <a href="#" class="btn btn-primary btn-lg btn-block">Block level button</a>
                 <a href="#" class="btn btn-secondary btn-lg btn-block">Block level button</a>
               </div>
-              <figure class="example--code" id="buttons--sizing--code">
+              <figure class="example__code" id="buttons--sizing--code">
                 <pre><code class="html">
 &lt;a href="#" class="btn btn-primary btn-lg"&gt;Large button&lt;/a&gt;
 &lt;a href="#" class="btn btn-secondary btn-lg"&gt;Large button&lt;/a&gt;
@@ -740,8 +740,8 @@
 
         for(var i = 0; i < showCodeButtons.length; i++) {
           showCodeButtons[i].onclick = function (event) { 
-            this.classList.toggle('active');
-            document.querySelector('#' + this.dataset.codetarget).classList.toggle('active');
+            this.classList.toggle('show-code--active');
+            document.querySelector('#' + this.dataset.codetarget).classList.toggle('example__code--active');
           }
         }
 
